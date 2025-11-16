@@ -24,14 +24,24 @@ Formula: (Subject Grade x Units) or (Units or Sum of Grades x Total Units / Tota
 *Makefile Extension
 *GUI made with GTK3.0 / GTK4.0
 *VSCode
+*WinGW/GCC Compiler
 
 ### Executing program
 
 Run Terminal:
+(Windows)
+1. cd C:/path/to/folder
+2. gcc main.c studentfunc.c -o student_app.exe
+3. make
+4. student_app.exe
 
-1. cd /name/directory/folder
-2. make
-3. ./student_app
+Run Terminal:
+(Linux)
+1. cd /path/to/folder
+2. ls (check if files are complete and it exist.)
+3. gcc main.c studentfunc.c -o student_app.exe
+4. make
+5. ./student_app
 
 ## Authors
 
@@ -42,8 +52,8 @@ Run Terminal:
 ## Version History
 
 * 1.0
-    * Initial Release
+- Initial Release
       
 * 2.0
-*ID Digit Min/Max
-*Enter before proceeding feature
+- ID Digit Min/Max
+- Enter before proceeding feature
