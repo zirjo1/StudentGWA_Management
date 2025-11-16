@@ -1,1 +1,7 @@
+This is the 2nd Version of the System
 
+Updates: 
+- ID digit min/max
+- Prompt Clear
+- ENTER before exiting prompt / choosing prompt
+- MAKEFILE
